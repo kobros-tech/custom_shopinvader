@@ -1,0 +1,1 @@
+# Install, Configure, and setup Shopinvader for e-commerce business

@@ -1,7 +1,7 @@
 # Setup Elasticsearch search engine to index products, categories, and brands
 
 1. Install the ``connector_search_engine`` module
-2. Open `` search Engine ==> Configuration ==> Index Configurations`` view and create a new ``se.index`` record and assign fields the suitable values:
+2. Open ``Search Engine ==> Configuration ==> Index Configurations`` view and create a new ``se.index`` record and assign fields the suitable values:
     + ``Name:`` ``product_product_config``
     + ```json
         {

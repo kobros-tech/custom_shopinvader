@@ -11,3 +11,8 @@ services:
     command:
       - start-dev
     restart: always
+    volumes:
+      - keycloak_data:/opt/keycloak/data
+
+volumes:
+  keycloak_data:

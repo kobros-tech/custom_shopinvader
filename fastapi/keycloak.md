@@ -17,6 +17,11 @@ services:
     command:
       - start-dev
     restart: always
+    volumes:
+      - keycloak_data:/opt/keycloak/data
+
+volumes:
+  keycloak_data:
 ```
 
 ## Open keycloak admin console ``http://localhost:8080/admin/master/console/`` and configure it
